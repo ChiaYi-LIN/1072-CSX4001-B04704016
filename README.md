@@ -11,3 +11,11 @@
 ## Week 3
 1. 解析 91APP member 資料集
 2. 用 Python Jupyter Notebook 做資料視覺化
+
+## Week 4
+1. 解析 91APP ecoupon 資料集
+2. 精簡程式碼
+
+## Week 5
+1. 解析 91APP order 資料集
+2. 透過資料視覺化回答資料集的問題
