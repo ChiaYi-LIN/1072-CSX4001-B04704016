@@ -37,11 +37,9 @@
 
 ## Week 8
 文字探勘
-1. tf-idf: 文檔文字權重計算、共現性分析
-2. cluster: 文檔聚類、關聯性分析
+1. tf-idf: 文檔文字權重計算、共現性分析 ([data](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca/tfidf))
+2. cluster: 文檔聚類、關聯性分析 ([data](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca/cluster))
 3. PCA: 文檔向量降維、視覺化
-
-([code & data](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca))
 
 ([HW4~6 directory](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/))
 
