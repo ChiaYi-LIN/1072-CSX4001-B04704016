@@ -38,5 +38,6 @@
 文字探勘
 1. tf-idf: 文檔文字權重計算、共現性分析
 2. cluster: 文檔聚類、關聯性分析
-3. PCA: 文檔向量降維、視覺化\r\n
+3. PCA: 文檔向量降維、視覺化
+
 ([連結](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca))
