@@ -1,12 +1,13 @@
 #%% [markdown]
-# # 目標
-# 執行 tf-idf, Cluster, PCA 看看是否能讓機器看到一篇產業新聞的時候自動幫它分類
-# # 步驟
-# 1. 導入[爬蟲結果](./crawler/tech_orange.ipynb)
-# 2. 導入[Jieba斷句結果](./dictionary/news_to_seg.ipynb)
+# # HW4~6
+# ## 目標
+# 執行 tf-idf, cluster, PCA 看看是否能讓機器看到一篇產業新聞的時候自動幫它分類
+# ## 步驟
+# 1. 導入[爬蟲結果](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/crawler/tech_orange.ipynb)
+# 2. 導入[Jieba斷句結果](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/dictionary/news_to_seg.ipynb)
 # 3. tf-idf 計算文字與文章的關聯並紀錄權重
-# 4. Cluster 將結果分為五群，看看分群解果能不能大致將產業分別開來
-# 5. PCA 將 tf-idf 的結果降維並根據 Cluster 結果繪製散步圖
+# 4. cluster 將結果分為五群，看看分群結果能不能大致將產業分別開來
+# 5. PCA 將 tf-idf 的結果降維並根據 cluster 結果繪製散佈圖
 
 #%%
 import pandas as pd
@@ -88,6 +89,7 @@ data["category"] = pd.DataFrame(pre)
 data["pca1"] = pd.DataFrame(trans_data[:,0])
 data["pca2"] = pd.DataFrame(trans_data[:,1])
 data.to_pickle("./tfidf_cluster_pca/data_cluster_and_pca.pkl")
+print(data.head(10))
 
 #%%
 f = open("./tfidf_cluster_pca/cluster/cluster.txt", "w+", encoding="utf-8")
@@ -104,3 +106,11 @@ plt.figure(figsize=(15, 8))
 plt.rcParams["axes.unicode_minus"]=False 
 plt.title(u"Kmeans n=4")
 plt.scatter(trans_data[:,0],trans_data[:,1],c=pre,marker="s")
+
+#%% [markdown]
+# # 結論
+# * 根據上圖和[聚類結果](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/tfidf_cluster_pca/cluster/cluster.txt)，發現這樣的文檔分類方法並不如預期。
+# * 未來的改進方向:
+#   1. NER 抽取人名、地名、機構與專有名詞等等
+#   2. 使用 Jieba 斷句時載入自定義辭典，拆解出各個產業的專業用語
+#   3. 訓練詞向量模型
