@@ -24,7 +24,7 @@
 ([HW1~3 Jupyter Notebook](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW1~3/main.ipynb))
 ## Week 6
 文字資料預處理
-1. 爬蟲: TechOrange 科技報橘 ([連結](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/crawler))
+1. 爬蟲: TechOrange 科技報橘 ([code](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/crawler/tech_orange.ipynb)) ([data](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/crawler/data))
   * 電商
   * 區塊鍊
   * 金融
@@ -33,7 +33,7 @@
 
 ## Week 7
 文字資料預處理
-1. Jieba: 將爬蟲得到的文檔進行拆字斷句 ([連結](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/dictionary))
+1. Jieba: 將爬蟲得到的文檔進行拆字斷句 ([code](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/dictionary/news_to_seg.ipynb)) ([data](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/dictionary/data))
 
 ## Week 8
 文字探勘
@@ -41,6 +41,8 @@
 2. cluster: 文檔聚類、關聯性分析
 3. PCA: 文檔向量降維、視覺化
 
-([連結](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca))
+([code & data](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca))
 
-([HW4~6 Jupyter Notebook](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/tfidf_cluster_pca/seg_apply_tfidf_cluster_pca.ipynb))
+([HW4~6 directory](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/))
+
+([HW4~6 main Jupyter Notebook](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/tfidf_cluster_pca/seg_apply_tfidf_cluster_pca.ipynb))
