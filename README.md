@@ -41,3 +41,5 @@
 3. PCA: 文檔向量降維、視覺化
 
 ([連結](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/tree/master/HW4~6/tfidf_cluster_pca))
+
+([HW4~6 Jupyter Notebook](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/HW4~6/tfidf_cluster_pca/seg_apply_tfidf_cluster_pca.ipynb))
