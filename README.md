@@ -1,5 +1,7 @@
 # 國企四 林家毅 B04704016
 
+## Check Final Project: [Customer Behavior Prediction with Machine Learning](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/Data%20Science%20Programming%20Final.pdf)
+
 ## Week 1 (2/21)
 1. 建立 Github repository
 2. 參考助教範例
