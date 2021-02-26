@@ -2,6 +2,8 @@
 
 ## Check Final Project: [Customer Behavior Prediction with Machine Learning](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/Data%20Science%20Programming%20Final.pdf)
 
+![demo](https://github.com/ChiaYi-LIN/1072-CSX4001-B04704016/blob/master/demo.png)
+
 ## Week 1 (2/21)
 1. 建立 Github repository
 2. 參考助教範例
